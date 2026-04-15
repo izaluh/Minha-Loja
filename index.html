@@ -15,7 +15,66 @@
       min-height: 100vh;
       margin: 0;
     }
+    h1 {
+      margin-bottom: 40px;
+      color: #333;
+    }
 
+    .loja {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .produto {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+      width: 200px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .produto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .produto img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .produto h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .preco {
+      color: #2e7d32;
+      font-weight: bold;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .botao-comprar {
+      background-color: #5af162;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.2s;
+    }
+
+    .botao-comprar:hover {
+      background-color: #4cee67;
+    }
 
   </style>
 </head>
